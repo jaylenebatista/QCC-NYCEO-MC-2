@@ -1,0 +1,47 @@
+div{
+  color: #Abc;
+  background-color: rgb(194,113,8);
+  width: 50px;
+  height: 75px;
+  border: #547612;
+  border-width: 15px;
+  border-style: solid;
+  transform-origin: 150px;
+}
+#mat3d{
+  transform-origin: 350px,150px;
+  color: aqua;
+  background-color: blanchealmond;
+  width: 50px;
+  height: 75px;
+  border: rgba(235, 7, 33);
+  border-width: 15px;
+  border-style: dashed;
+  /*Standard syntax */
+  transform: matrix3d(1,0,0.5,0.5,1,1,1,1,0.5,50,-20,-50,50,10,10,1);
+  transition-duration: 15000ms;
+}
+#animt{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+  0% {background-color: red; left: 200px; top:0px}
+  25% {background-color: yellow; left:200px; top: 0px;}
+  50% {background-color: blue; left: 200px; top: 200px}
+  75% {background-color: green; left: 0px; top: 200px}
+  100% {background-color: red;left:0px; top: 0px;}
+}
+@keyframes example1 {
+  from {background-color: yellow;}
+  to {background-color: red;}
+}

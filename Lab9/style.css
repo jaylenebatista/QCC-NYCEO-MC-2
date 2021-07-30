@@ -1,0 +1,23 @@
+p{
+  text-align: center;
+  color: red;
+  transform: translate(-25px,15px);
+  transition-duration: 17000ms;
+  transform: scale3d(10,15,2);
+}
+
+div{
+  text-align: center;
+  border: blue;
+  border-style: solid;
+  border-width: 2px;
+  width: 50px;
+  height: 75px;
+  transform-origin: 1000px;
+  transition-duration: 7000ms;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

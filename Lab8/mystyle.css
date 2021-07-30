@@ -1,0 +1,55 @@
+body{
+  background-color: lightblue;
+}
+div{
+  border: 10px;
+  border-color: green;
+  border-width: thin;
+}
+p{
+  border: 10px;
+  border-color: green;
+  border-width: thin;
+  color: green;
+}
+.Lorem{
+  border: 10px;
+  border-color: green;
+  border-width: thin;
+  color: red;
+}
+#intro{
+  font-family: fantasy;
+  font-size: 20px;
+  border: 10px;
+  border-color: green;
+  border-width: thin;
+  color: red;
+}
+img{
+  margin: 50px;
+  border:none;
+  border-radius: 50%;
+  width:
+}
+table{
+  margin: 100px;
+  border: solid;
+}
+tr{
+  margin: 15px;
+  padding: 5px;
+  border:dotted;
+  border-color: yellow;
+  font-family: monospace;
+  color: rgb(55, 20, 100);
+}
+td{
+  margin: 15px;
+  padding: 5px;
+  border: dotted;
+  border-color: red;
+}
+th{
+
+}
